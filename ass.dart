@@ -24,34 +24,4 @@ main(){
     print(digit);
     even_dig ~/=10;
   }
-  
-    // double num=123456;
-    // List even_dig=[6];
-    // List odd_dig=[6];
-    // int i=0;
-    // // double nn;
-    // while(num>0)
-    // {
-    //      double dig=num%10;
-    //     if(num%2==0)
-    //     {
-    //         even_dig[i]= dig;
-    //         i++;
-
-            
-    //     }
-    //     else
-    //     {
-    //         odd_dig[i]=dig;
-    //     }
-    //      num=num/10;
-    // }
-    // for(int j=0;j<i;j++)
-    // {
-    //     print("$even_dig");
-    // }
-    // for(int k=0;k<i;k++)
-    // {
-    //     print(" $odd_dig");
-    // }
 }

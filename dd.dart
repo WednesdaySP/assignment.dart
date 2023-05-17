@@ -19,52 +19,34 @@ void main()
   var d=e/g;
   var log=e >20 ||g >4;
   print(log);
-  print("*************");
   print("Division is:${d}");
-  print("*************");
   print(r);
-  print("*************");
   print("Result=${r}");
-  print("*************");
   print(l);
-  print("*************");
   print(a);
-  print("*************");
   print(n);
-  print("*************");
-
   print(p);
-  print("*************");
-
   print(m);
-  print("*************");
-
   print(k);
-  print("*************");
-
   print(nm);
-  print("*************");
-
   print(s is int);
   print(s2 is! int);
-
-  print("*************");
   print(++n1);
 
 
    var ans = 1;
 
-   ans == 10 ? print("Answer is 10") : print("Oh no! ye kya ho gaya, ab me kya kru😢😢😢");
+   ans == 10 ? print("Answer is 10") : print("Oh no,wrong answer!");
 
    if(n2%2==0) print("even");
 
    else print("odd");
 
-  var x="Shashi";
+  var x="Shipraa";
   print(x.runtimeType);
 
   const u="Sneha";
-  print("Sincere girl : $u");
+  print("String name : $u");
 
   if(true)
   {

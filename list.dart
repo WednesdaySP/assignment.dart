@@ -2,7 +2,7 @@
 
 import 'dart:io';
 
-// import 'cart.dart';
+
 void main() {
   print("Enter your username and password to login");
   stdout.write("Enter your username:");
@@ -11,23 +11,12 @@ void main() {
   stdout.write("Enter your password:");
   var password=stdin.readLineSync();
 
- 
-
-  // if(username==""&& password=="")
-  // {
-  //   print("Fill the details to login!");
-  // }
-  // else{}
       print("Username:$username");
   print("Password: $password");
     print("Login");
 
   prod();
-//   // var pin=1111;
-//   // if(pin==1111)
-//   // {
-//   //   print("login");
-//   // }
+
 }
 void prod(){
 
@@ -62,20 +51,3 @@ print("Product3: $product3");
   }
   
  }
-
-
-
-
-
-// import 'dart:io';
-
-// void main() {
-//   stdout.write('Enter your username: ');
-//   var username = stdin.readLineSync();
-
-//   stdout.write('Enter your password: ');
-//   var password = stdin.readLineSync();
-
-//   print('Username: $username');
-//   print('Password: $password');
-// }

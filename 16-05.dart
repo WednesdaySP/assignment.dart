@@ -4,7 +4,7 @@ main()
 {
   int num=12398465;
   print("Number:$num");
-  
+
   List<int> digits = num.toString().split('').map(int.parse).toList();
    print("List: $digits");
 
@@ -12,16 +12,14 @@ main()
     List<int> odd_dig=[];
     List<int> finalist=[];
 
- for(int digit in digits){
-
-
+ for(int digit in digits)
+ {
    if(digit%2==0)
   {
      even_dig.add(digit);
-   
   }
-  else{
-   
+  else
+  {
     odd_dig.add(digit);
   }
  }
@@ -29,7 +27,6 @@ main()
  print("Odd digits: $odd_dig");
  finalist=even_dig+odd_dig;
  print("Final list: $finalist");
-
 }
 
 
