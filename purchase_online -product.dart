@@ -85,16 +85,6 @@ void addCart() {
       }
 
       payment(prod);
-
-      // for (pname in product(pname,qty)) {
-      // prod.add(addCart());
-      // print("Product added to your cart.");
-
-      // }
-      // for (pname in product(pname, pqty)) {
-      //   prod.remove(addCart());
-      //   print("Product removed from cart.");
-      // }
     } else {
       print("Invalid quantity.");
     }
